@@ -20,7 +20,7 @@ function deleteFromObjectByKey(recipes, key) {
 }
 
 function destructivelyDeleteFromObjectByKey(recipes, key) {
-  delete recipes[key]
+  delete recipes[key];
   
   return recipes
 }
